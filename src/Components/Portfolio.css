@@ -1,0 +1,200 @@
+.portfolio{
+    text-align: center;
+    height: 700px;
+}
+.portfolio-container{
+    margin: 20px 150px;
+    padding: 0 10px;    
+}
+.portfolio-container h3{
+    display: inline-block;
+    font-size: 30px;
+    color: rgba(62,180,117,255);
+}
+.portfolio-container span{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+  .portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-around;
+    margin: 20px 90px;
+    transform: translateX(20px);
+  }
+  
+  .portfolio-item {
+    background-color: whitesmoke;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+    margin: 5px;
+  }
+  .portfolio-item img{
+    padding: 10px 0px;
+    height: 100px;
+    width: 120px;
+    
+  }
+  .portfolio-item h2{
+    background:rgba(227,251,238,255);
+    backdrop-filter: blur(10px);
+    font-size: 16px;
+    transform: translateY(-10px);
+  }
+  .portfolio-text{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 70px;
+    transform: translateX(2%);
+  }
+  .portfolio-text h2{
+    display: inline-block;
+    color: rgba(62,180,117,255);
+    font-size: 30px;
+  }
+  .portfolio-text p{
+    display: inline;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .portfolio-text span{
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  @media (max-width: 1024px) and (min-width: 768px){
+    .portfolio{
+      text-align: center;
+      height: 750px;
+  }
+  .portfolio-container{
+      margin: 0px 80px;    
+  }
+  .portfolio-container h3{
+      display: inline-block;
+      font-size: 25px;
+      color: rgba(62,180,117,255);
+  }
+  .portfolio-container span{
+      font-size: 25px;
+      font-weight: bold;
+      padding-left: 5px;
+  }
+  
+    .portfolio-items {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      justify-content: space-around;
+      margin: 10px 50px;
+      transform: translateX(10px);
+    }
+    
+    .portfolio-item {
+      background-color: whitesmoke;
+      border: 1px solid lightgrey;
+      border-radius: 8px;
+      margin: 5px;
+    }
+    .portfolio-item img{
+      padding: 10px 0px;
+      height: 70px;
+      width: 90px;
+      
+    }
+    .portfolio-item h2{
+      background:rgba(227,251,238,255);
+      backdrop-filter: blur(10px);
+      font-size: 14px;
+      transform: translateY(-10px);
+    }
+    .portfolio-text{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      margin: 0 80px;
+      transform: translateX(2%);
+    }
+    .portfolio-text h2{
+      display: inline-block;
+      color: rgba(62,180,117,255);
+      font-size: 25px;
+    }
+    .portfolio-text p{
+      display: inline;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .portfolio-text span{
+      display: block;
+      font-size: 14px;
+      text-decoration: none;
+    } 
+  }
+  @media (max-width: 767px) and (min-width:300px){
+    .portfolio{
+      text-align: center;
+      height: auto;
+  }
+  .portfolio-container{
+      margin: 20px 0px;
+      padding: 0;    
+  }
+  .portfolio-container h3{
+      display: inline-block;
+      font-size: 25px;
+      color: rgba(62,180,117,255);
+  }
+  .portfolio-container span{
+      font-size: 25px;
+      font-weight: bold;
+      padding-left: 5px;
+  }
+  
+    .portfolio-items {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0 40px;
+      transform: translateX(1%);
+    }
+    
+    .portfolio-item {
+      background-color: whitesmoke;
+      border: 1px solid lightgrey;
+      border-radius: 8px;
+      margin: 10px 60px;
+      padding: 0;
+    }
+    .portfolio-item img{
+      padding: 10px 0px;
+      height: 30px;
+      width: 30px;
+    }
+    .portfolio-item h2{
+      background:rgba(227,251,238,255);
+      backdrop-filter: blur(10px);
+      font-size: 14px;
+      transform: translateY(-10px);
+    }
+    .portfolio-text{
+      display: flex;
+      flex-direction: column;
+      margin: 0 20px;
+    }
+    .portfolio-text h2{
+      display: inline-block;
+      color: rgba(62,180,117,255);
+      font-size: 14px;
+    }
+    .portfolio-text p{
+      display: inline-block;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .portfolio-text span{
+      display: inline-block;
+      font-size: 12px;
+      text-decoration: none;
+    } 
+  }
